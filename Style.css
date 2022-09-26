@@ -1,0 +1,41 @@
+li.current {
+    display: inline-block;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: blueviolet;
+    border-radius: 8px;
+    border: 1px solid blueviolet;
+    transition: 1s;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    float: none;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+body {
+    padding-left: 10px;
+}
